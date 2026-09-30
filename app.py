@@ -79,7 +79,7 @@ db = {
     "users": {}, "products": {}, "deposits": [], "orders": [],
     "usedTxnIds": [], "pendingOrders": [], "validMails": [], "vouchers": {},
     "settings": {
-        "bot_name": "Proxy Market",
+        "bot_name": "Bd Proxy Store",
         "welcome_msg": '<tg-emoji emoji-id="6266995104687330978">✨</tg-emoji> <b>Welcome to {bot_name}</b>\n━━━━━━━━━━━━━━━━━━\n<tg-emoji emoji-id="6267068789146260253">💰</tg-emoji> Balance: <b>{bal:.2f} BDT / {usdt:.4f} USDT</b>\n━━━━━━━━━━━━━━━━━━\n<tg-emoji emoji-id="6267172559851099903">📌</tg-emoji> <i>নিচের মেনু থেকে আপনার প্রয়োজনীয় সার্ভিসটি বেছে নিন 👇</i>',
         "ui_overrides": {},
         "paymentMethods": {
@@ -510,7 +510,7 @@ def main_handler(message):
         state[chat_id] = {"type": "wait_support_msg"}
         msg = (f'<tg-emoji emoji-id="{EMOJI["support"]}">💬</tg-emoji> <b>Support Center</b>\n'
                f'━━━━━━━━━━━━━━━━━━\n'
-               f'আপনার সমস্যা বা প্রশ্ন @nextproxybd বিস্তারিত লিখে মেসেজ করুন। অ্যাডমিনরা শীঘ্রই বটের মাধ্যমে আপনাকে রিপ্লে দেবেন।')
+               f'আপনার সমস্যা বা প্রশ্ন @MHMSiam বিস্তারিত লিখে মেসেজ করুন। অ্যাডমিনরা শীঘ্রই বটের মাধ্যমে আপনাকে রিপ্লে দেবেন।')
         bot.send_message(chat_id, msg)
         
     elif actual_text == "Tutorial":
