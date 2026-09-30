@@ -11,8 +11,8 @@ import pandas as pd
 from telebot.types import ReplyKeyboardMarkup, BotCommand
 
 # ====== BOT CREDENTIALS ======
-TOKEN = "8285219805:AAECK_oYoxzzxwlOz1mKDcIPtSpy3LxcSGw"
-ADMIN_IDS = ["6034658132"]
+TOKEN = "8787001143:AAEI3GWsi1obB1orD8VgVWzVCUl-QQK5flA"
+ADMIN_IDS = ["8021566644"]
 
 # ====== 3RD PARTY API SETTINGS ======
 API_PANEL_URL = "https://vpn.sajeebtechonline.top/api.php"
